@@ -71,7 +71,7 @@ function MembershipUpgrade() {
     }
   ];
 
-  const BaseUrl = "http://localhost:3000";
+  const BaseUrl = "https://crypto-bac.onrender.com";
 
   const navItems = [
     { id: 'home', label: 'Home', icon: '🏠' },

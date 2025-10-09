@@ -5,7 +5,7 @@ import axios from 'axios';
 
 function Home() {
 
-    const BaseUrl = 'http://localhost:3000';
+    const BaseUrl = 'https://crypto-bac.onrender.com';
 
     const [activeTab, setActiveTab] = useState('home');
     const navigate = useNavigate();

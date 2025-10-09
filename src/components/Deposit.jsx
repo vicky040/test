@@ -4,7 +4,7 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import axios from 'axios';
 
 function Deposit({currStep}) {
-  const BaseUrl = "http://localhost:3000";
+  const BaseUrl = "https://crypto-bac.onrender.com";
 
   const [qrCodeUrl, setQrCodeUrl] = useState(null);
   const [loading, setLoading] = useState(false);

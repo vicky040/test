@@ -9,7 +9,7 @@ function AdminLogin() {
 
   const navigate = useNavigate();
 
-  const BASE_URL = 'http://localhost:3000'
+  const BASE_URL = 'https://crypto-bac.onrender.com'
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });

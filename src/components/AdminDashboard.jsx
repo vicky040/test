@@ -46,7 +46,7 @@ function AdminDashboard() {
   const totalBalance = users?.reduce((sum, user) => sum + user.balance, 0);
   const totalDeposits = users?.reduce((sum, user) => sum + user.deposit, 0);
 
-  const BaseUrl = 'http://localhost:3000';
+  const BaseUrl = 'https://crypto-bac.onrender.com';
 
 useEffect(() => {
     axios

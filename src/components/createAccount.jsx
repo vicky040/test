@@ -22,7 +22,7 @@ function CreateAccount() {
 
   const navigate = useNavigate();
 
-  const BaseUrl = 'http://localhost:3000'
+  const BaseUrl = 'https://crypto-bac.onrender.com'
 
   // ===== Handle Input =====
   const handleInputChange = (e) => {
