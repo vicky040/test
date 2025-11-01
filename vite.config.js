@@ -7,4 +7,9 @@ export default defineConfig({
   server: {
     allowedHosts: ['silent-melisent-cryptoo-bba700a0.koyeb.app'], // Add the allowed host here
   },
+  resolve: {
+    alias: {
+      '@': '/src', // Alias for cleaner imports
+    },
+  },
 })
