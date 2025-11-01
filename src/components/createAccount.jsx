@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import './CreateAccount.css';
+import './createAccount.css';
 
 function CreateAccount() {
   const [currentStep, setCurrentStep] = useState('register'); // 'register' or 'otp'
