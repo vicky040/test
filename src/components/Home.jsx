@@ -5,7 +5,7 @@ import axios from 'axios';
 
 function Home() {
 
-    const BaseUrl = 'https://crypto-bac.onrender.com';
+    const BaseUrl = 'https://precious-cynthy-cryptoo-083d74eb.koyeb.app/';
 
     const [activeTab, setActiveTab] = useState('home');
     const navigate = useNavigate();

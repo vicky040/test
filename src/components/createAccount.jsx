@@ -22,7 +22,7 @@ function CreateAccount() {
 
   const navigate = useNavigate();
 
-  const BaseUrl = 'https://crypto-bac.onrender.com'
+  const BaseUrl = 'https://precious-cynthy-cryptoo-083d74eb.koyeb.app/'
 
   // ===== Handle Input =====
   const handleInputChange = (e) => {
@@ -117,6 +117,7 @@ function CreateAccount() {
 
         alert('Account created successfully!');
         console.log('User created:', res.data.user);
+        navigate('/login');
         // redirect to dashboard or login page
       } catch (err) {
         console.error(err.response?.data || err.message);

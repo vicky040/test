@@ -71,7 +71,7 @@ function MembershipUpgrade() {
     }
   ];
 
-  const BaseUrl = "https://crypto-bac.onrender.com";
+  const BaseUrl = "https://precious-cynthy-cryptoo-083d74eb.koyeb.app/";
 
   const navItems = [
     { id: 'home', label: 'Home', icon: '🏠' },
